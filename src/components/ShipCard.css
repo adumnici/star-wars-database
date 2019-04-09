@@ -1,0 +1,7 @@
+.Collapsible__trigger{
+    cursor: pointer;
+}
+
+div{
+    font-family: 'MyWebFont', Fallback, sans-serif;
+}

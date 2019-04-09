@@ -1,8 +1,12 @@
 import React from 'react';
+import './SearchBar.css';
 
-const SearchBar = () => {
+const SearchBar = ({onSearchChange}) => {
     return (
-        <input type="text" id="searchField" placeholder="Search ..." />  
+        <div className="searchBar">
+             <input type="text" id="searchField" placeholder="Search ..." onChange={onSearchChange} className="pa3 ba b--green bg-lightest-blue tc bar"/>  
+        </div>
+       
     )
 }
 
